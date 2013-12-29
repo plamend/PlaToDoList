@@ -73,8 +73,8 @@ public class MainActivity extends Activity {
         });
     }
 
-    private void markAsReady(AdapterView<?> adapterView, int i) {
-        Task task = (Task) adapterView.getItemAtPosition(i);
+    private void markAsReady(AdapterView<?> adapterView, int m) {
+        Task task = (Task) adapterView.getItemAtPosition(m);
         task.setTaskStatus(true);
 
     }
